@@ -1,37 +1,48 @@
-# ✈️ Flight Price Prediction & Data Analysis
+# ✈️ Uçuş Qiymətlərinin Proqnozlaşdırılması və Data Analizi
 
-This project involves a large-scale Exploratory Data Analysis (EDA) and statistical investigation of domestic flight prices in India. The primary objective is to identify the key factors influencing ticket costs, such as airline choice, departure time, flight class, and booking lead time.
-
-## 📊 Visualizations & Analysis
-
-The project provides deep insights into the aviation market through various data visualizations:
-
-### 1. Airline Market Share
-The analysis reveals that **Vistara** and **Air India** are the dominant players with the highest number of flights in the dataset, while **SpiceJet** accounts for the smallest portion of the market share.
-
-
-### 2. Flight Timing Distribution
-Analysis of departure and arrival times shows a clear preference for **Morning** departures and **Night** arrivals. These peak times are significant drivers of price fluctuations.
-
-
-### 3. Route Analysis (Source & Destination)
-The data confirms that **Delhi** and **Mumbai** serve as the primary hubs, acting as the largest source and destination points for domestic travel in India.
+Bu layihə, Hindistanın daxili uçuş bazarına aid genişmiqyaslı **Exploratory Data Analysis (EDA)** və statistik araşdırmadır. Əsas məqsəd, bilet qiymətlərinə təsir edən gizli faktorları aşkar etmək və sərnişin davranışlarını analiz etməkdir.
 
 ---
 
-## 🎯 Key Insights
+## 📊 Vizuallaşdırma və Təhlil
 
-* **Booking Strategy:** Booking tickets at least **21 days in advance** leads to significant savings. Prices typically peak during the final 10 days before departure.
-* **Class Disparity:** On average, **Business Class** tickets are **8 times more expensive** than Economy Class.
-* **Market Leaders:** **Vistara** leads the market not only in flight frequency but also in the luxury segment, with peak prices reaching up to **123,071**.
-* **Stops & Duration:** Non-stop (direct) flights are generally shorter in duration and more cost-effective on average compared to flights with multiple layovers.
+Analiz zamanı əldə olunan əsas vizual nəticələr:
+
+### 1. Aviaşirkətlərin Bazar Payı
+Tədqiqat göstərir ki, **Vistara** və **Air India** bazarda ən böyük uçuş həcminə malik şirkətlərdir. **SpiceJet** isə ən az uçuş sayına malik operator kimi qeyd olunur.
+
+### 2. Uçuş Vaxtlarının Paylanması
+Gediş və gəliş vaxtlarının analizi göstərir ki:
+* Sərnişinlər ən çox **Səhər (Morning)** gedişlərini üstün tuturlar.
+* Gəliş vaxtı olaraq isə **Gecə (Night)** saatları üstünlük təşkil edir.
+* Bu zaman dilimləri qiymət artımına birbaşa təsir edən amillərdir.
+
+### 3. Marşrut Analizi (Mənbə və Təyinat)
+Analiz nəticəsində məlum oldu ki, **Delhi** və **Mumbai** şəhərləri həm ən böyük gediş (Source), həm də ən böyük gəliş (Destination) mərkəzləridir (hubs).
 
 ---
 
-## 🛠 Technologies & Tools
+## 🎯 Əsas Nəticələr (Insights)
 
-The following stack was used to perform data cleaning, manipulation, and visualization:
+* **Qənaət Strategiyası:** Biletləri uçuşa ən azı **21 gün qalmış** almaq kəskin qənaət təmin edir. Son 10 gündə qiymətlər pik həddə çatır.
+* **Sinif Fərqi:** **Business** sinfi **Economy** sinfindən orta hesabla **8 dəfə** bahadır.
+* **Bazar Lideri:** **Vistara** həm uçuş sayına, həm də lüks seqmentdəki qiymət göstəricilərinə görə (maksimum: 123,071 ) liderdir.
+* **Dayanacaqların Təsiri:** Birbaşa (non-stop) uçuşlar həm vaxt baxımından daha qısadır, həm də orta hesabla daha ucuzdur.
 
-* **Language:** Python
-* **Data Manipulation:** `Pandas`, `NumPy`
-* **Visualization:** `Matplotlib`, `Seaborn`
+---
+
+## 🛠 Texnologiyalar
+
+Layihənin hazırlanmasında aşağıdakı texnoloji stack istifadə olunub:
+
+* **Dil:** Python
+* **Data Manipulyasiyası:** `Pandas`, `NumPy`
+* **Vizuallaşdırma:** `Matplotlib`, `Seaborn`
+
+---
+
+## 🚀 Quraşdırma və İstifadə
+
+1. Repozitoriyanı klonlayın:
+   ```bash
+   git clone [https://github.com/istifadeci_adiniz/flight-price-analysis.git](https://github.com/istifadeci_adiniz/flight-price-analysis.git)
